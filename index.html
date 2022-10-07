@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Web Hosting service</title>
+</head>
+
+<body>
+    <section id="begin" class="header-section">
+        <div class="header">
+            <div class="nav-left-box">
+                <img src="Images/logo.png" height="35px" alt="">
+                <h2 class="maguwo"><span>Maguwo</span>Host</h2>
+            </div>
+            <div class="nav-sec">
+                <div class="hamburger" onclick="openNav()">
+                    <div class="ham-one"></div>
+                    <div class="ham-two"></div>
+                    <div class="ham-three"></div>
+                </div>
+                <div class="responsive-nav" id="responsive-side">
+                    <a href="javascript:void(0)" onclick="closeNavibar()" class="close">X</a>
+                    <ul class="responsive-navigation">
+                        <li class="menu-item"><a href="#">HOME</a></li>
+                        <li class="menu-item"><a href="#">ABOUT</a></li>
+                        <li class="menu-item"><a href="#">PRICING</a></li>
+                        <li class="menu-item"><a href="#">DOMAIN</a></li>
+                        <li class="menu-item"><a href="#">HOSTING</a></li>
+                    </ul>
+                </div>
+                <nav>
+                    <ul class="navigation">
+                        <li class="home"><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">PRICING</a></li>
+                        <li><a href="#">DOMAIN</a></li>
+                        <li><a href="#">HOSTING</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="nav-right-box">
+                <div>
+                    <p class="right-box-para">Do you need help ? Just Email, Live chat or Call us</p>
+                    <div class="btn-num">
+                        <button class="btn-live">Live Chat</button>
+                        <div class="dash"></div>
+                        <p class="number">6284-6534</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner-section">
+        <div class="banner">
+            <h1 class="banner-head">
+                Just a Proffesional Web<br> Hosting Services
+            </h1>
+            <ul class="banner-list">
+                <li>modern</li>
+                <div class="hyphen"></div>
+                <li>fast</li>
+                <div class="hyphen"></div>
+                <li>reliable</li>
+            </ul>
+            <div class="shape-img">
+                <img src="images/Shape.png" class="shape" alt="">
+            </div>
+            <div class="outer-box">
+                <form action="">
+                    <input class="inner-first-box" type="text" id="domname" name="domname"
+                        placeholder="Your Domain Name...">
+                    <div class="selectdiv">
+                        <select id="dropdown" name="dropdown">
+                            <option value="com">.com</option>
+                            <option value="com">.in</option>
+                            <option value="com">.org</option>
+                        </select>
+                    </div>
+                    <input type="button" value="Check Availability" class="inner-third-box">
+                </form>
+            </div>
+            <div class="space"></div>
+        </div>
+    </section>
+
+    <section class="services-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-12 first-service">
+                    <img src="images/service.png" height="100px" alt="">
+                    <h3>#1 Webhost Services</h3>
+                    <p class="service-lorem">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+                        auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+                        sagittis sem nibh id elit. </p>
+                    <button class="btn-more">
+                        More
+                    </button>
+                </div>
+                <div class="col-md-6 col-12 second-service">
+                    <p class="com">.com</p>
+                    <h3>#1 Domain Services</h3>
+                    <p class="service-lorem">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+                        auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+                        sagittis sem nibh id elit. </p>
+                    <button class="btn-more">
+                        More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="first">
+            <h3 class="feature-head">Our Features</h3>
+            <p class="feature-subhead">Our best features</p>
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-12 features-icon">
+                        <img src="images/Live Support.png" alt="">
+                        <div class="under-dash"></div>
+                        <h4 class="icon-head">Live Support</h4>
+                        <p class="icon-para">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+                            auctor aliquet.</p>
+                    </div>
+                    <div class="col-md-3 col-12 features-icon">
+                        <img src="images/Cloud.png" alt="">
+                        <div class="under-dash"></div>
+                        <h4 class="icon-head">Cloud Technology</h4>
+                        <p class="icon-para">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+                            auctor aliquet.</p>
+                    </div>
+                    <div class="col-12 col-md-3 features-icon">
+                        <img src="images/Hi-tech.png" alt="">
+                        <div class="under-dash"></div>
+                        <h4 class="icon-head">Hi-Tech Database</h4>
+                        <p class="icon-para">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+                            auctor aliquet.</p>
+                    </div>
+                    <div class="col-12 col-md-3 features-icon">
+                        <img src="images/Live Monitoring.png" alt="">
+                        <div class="under-dash"></div>
+                        <h4 class="icon-head">Live Monitoring</h4>
+                        <p class="icon-para">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+                            auctor aliquet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="logo-section">
+        <div class="container-fluid p-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-12 client-section">
+                        <h3 class="client">Our Clients</h3>
+                        <p class="client-para">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+                            auctor aliquet. Aenean sollicitudin, lorem quis bibendum.</p>
+                    </div>
+                    <div class="col-md-2 col-6 top-logo">
+                        <img src="images/tree-logo.png" class="w-100" alt="">
+                    </div>
+                    <div class="col-md-2 col-6 top-logo">
+                        <img src="images/x-logo.png" class="w-100" alt="">
+                    </div>
+                    <div class="col-md-2 col-6">
+                        <img src="images/u-logo.png" class="w-100" alt="">
+                    </div>
+                    <div class="col-md-2 col-6">
+                        <img src="images/fish-logo.png" class="w-100" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonal-section">
+        <div class="conatiner-fluid">
+            <div class="container">
+                <div class="row sunvytx">
+                    <div class="col-md-4 col-12 review">
+                        <div class="box-back">
+                            <p class="testi-para">“ This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                                velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
+                                consequat ipsum, nec sagittis sem nibh id elit. ”</p>
+                            <div class="place">
+                                <p class="name">-Anna</p>
+                                <img src="images/Layer 4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 review">
+                        <div class="box-back">
+                            <p class="testi-para">“ This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                                velit
+                                auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
+                                ipsum,
+                                nec sagittis sem nibh id elit. ”</p>
+                            <div class="place">
+                                <p class="name">-Sana</p>
+                                <img src="images/girl 1 mod.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 review">
+                        <div class="box-back">
+                            <p class="testi-para">“ This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                                velit
+                                auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
+                                ipsum,
+                                nec sagittis sem nibh id elit. ”</p>
+                            <div class="place">
+                                <p class="name">-David</p>
+                                <img src="images/boy 1 mod.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="col-12 review">
+                                <div class="box-back">
+                                    <p class="testi-para">“ This is Photoshop's version of Lorem Ipsum. Proin gravida
+                                        nibh vel
+                                        velit
+                                        auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
+                                        consequat
+                                        ipsum,
+                                        nec sagittis sem nibh id elit. ”</p>
+                                    <div class="place">
+                                        <p class="name">-Anna</p>
+                                        <img src="images/Layer 4.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-12 review">
+                                <div class="box-back">
+                                    <p class="testi-para">“ This is Photoshop's version of Lorem Ipsum. Proin gravida
+                                        nibh vel
+                                        velit
+                                        auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
+                                        consequat
+                                        ipsum,
+                                        nec sagittis sem nibh id elit. ”</p>
+                                    <div class="place">
+                                        <p class="name">-Sana</p>
+                                        <img src="images/girl 1 mod.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-12 review">
+                                <div class="box-back">
+                                    <p class="testi-para">“ This is Photoshop's version of Lorem Ipsum. Proin gravida
+                                        nibh vel
+                                        velit
+                                        auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
+                                        consequat
+                                        ipsum,
+                                        nec sagittis sem nibh id elit. ”</p>
+                                    <div class="place">
+                                        <p class="name">-David</p>
+                                        <img src="images/boy 1 mod.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="small-footer-section">
+        <div class="container-fluid px-0">
+            <div class="container px-0">
+                <div class="row wrap px-0 gx-0 gy-0">
+                    <div class="col-md-9 col-12 wrap-para">
+                        <h4 class="price">Do you want to view Plans & Pricing ?</h4>
+                        <p class="follow">Follow the button in the right section</p>
+                    </div>
+                    <div class="col-md-3 col-12 button-plan">
+                        <button class="btn-plan">Plans & Pricing</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-12 globe-background">
+                    <div class="map">
+                        <img src="images/location.png" height="100%" alt="">
+                        <p class="address">Yogyakarta, Indonesia <br> 55282</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <p class="rightnav-head">Navigation</p>
+                    <ul class="side-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Domain</a></li>
+                        <li><a href="#">Hosting</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="icons">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-google-plus-g"></i>
+                    </div>
+                    <p class="top"><a href="#begin">Back to Top</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="foot-box">
+            <img src="images/Shape.png" class="foot-shape" height="30px" alt="">
+            <p class="copy">Copyright 2014 Maguwohost by FikriStudio</p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="JS/script.js"></script>
+    <script>
+        function openNav(){
+            document.getElementById("responsive-side").style.width = "100%";
+        }
+        function closeNavibar(){
+            document.getElementById("responsive-side").style.width = "0%";
+        }
+    </script>
+</body>
+
+</html>
